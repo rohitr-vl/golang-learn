@@ -2,10 +2,20 @@ package main
 
 import (
 	"fmt"
+
+	"golang.org/x/tour/wc"
 )
 
 func main() {
+	// maps.go
+	printFibonnaci(10)
+	closureExample()
+	funcAsParam()
+	wc.Test(WordCount)
+	fmt.Println("")
+	useMaps()
 	// slice in array.go
+/*
 	rangeIV()
 	rangeSlice()
 	ticTacToe()
@@ -64,4 +74,5 @@ func main() {
 	// need atleast one float value on RHS so that output is 2.5, otherwise 5/2 = 2
 	var y float64 = 5 / 2.00
 	fmt.Println(y)
+	*/
 }
