@@ -2,11 +2,20 @@ package main
 
 import (
 	"fmt"
-
-	"golang.org/x/tour/wc"
+	// "golang.org/x/tour/wc"
 )
 
 func main() {
+	// methods.go
+	vPtr := VertexFloat{3, 4}
+	fmt.Printf("Before scaling: %+v, Abs: %v\n", vPtr, vPtr.Abs())
+	vPtr.Scale(10)
+	fmt.Printf("After scaling: %+v, Abs: %v\n", vPtr, vPtr.Abs())
+
+	getRectAreaPerimemter()
+	v := VertexFloat{3.5, 4.5}
+	fmt.Println(v.Abs())
+/*
 	// maps.go
 	printFibonnaci(10)
 	closureExample()
@@ -14,6 +23,7 @@ func main() {
 	wc.Test(WordCount)
 	fmt.Println("")
 	useMaps()
+*/
 	// slice in array.go
 /*
 	rangeIV()
