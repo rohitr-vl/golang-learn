@@ -26,6 +26,6 @@ func newPerson(nameStr string, ageInt int, v Vertex) *Person {
 
 }
 
-func (p *Person) ChnageAge(age int) {
+func (p *Person) ChangeAge(age int) {
 	p.age = age
 }
