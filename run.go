@@ -1,12 +1,12 @@
 package main
 
-import (
-	"fmt"
-	// "golang.org/x/tour/wc"
-)
+// "golang.org/x/tour/wc"
 
 func main() {
+	// goroutines.go
+	mainRoutine()
 	// methods.go
+/*
 	vPtr := VertexFloat{3, 4}
 	fmt.Printf("Before scaling: %+v, Abs: %v\n", vPtr, vPtr.Abs())
 	vPtr.Scale(10)
@@ -15,7 +15,8 @@ func main() {
 	getRectAreaPerimemter()
 	v := VertexFloat{3.5, 4.5}
 	fmt.Println(v.Abs())
-/*
+*/
+	/*
 	// maps.go
 	printFibonnaci(10)
 	closureExample()

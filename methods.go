@@ -5,20 +5,20 @@ import (
 	"math"
 )
 
-type rect struct {
+type rect1 struct {
 	width, height float64
 }
 
-func (r rect) area() float64 {
+func (r rect1) area() float64 {
 	return r.width * r.height
 }
 
-func (rp *rect) perimeter() float64 {
+func (rp *rect1) perimeter() float64 {
 	return 2*rp.width + 2*rp.height
 }
 
 func getRectAreaPerimemter() {
-	rectObj := rect{3, 4}
+	rectObj := rect1{3, 4}
 	rectObjPointer := &rectObj
 
 	// both the methods can be called with rectObj & rectObjPointer
